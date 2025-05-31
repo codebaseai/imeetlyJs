@@ -687,7 +687,7 @@ function createStyledButton(config, modal) {
 }
 
 const API_CONFIG = {
-  BASE_URL: 'http://localhost:3000',
+  BASE_URL: 'https://api.imeetly.com',
   ENDPOINTS: {
     PUBLIC_APPOINTMENT: '/api/public/appointment',
     PUBLIC_TIMESLOTS: '/api/public/timeslots',
