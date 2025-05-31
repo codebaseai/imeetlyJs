@@ -775,7 +775,7 @@ function sendRequest(endpoint, payload, method) {
 function getKeyParam() {
   const scripts = document.getElementsByTagName('script');
   for (let script of scripts) {
-    if (script.src.includes('https://cdn.jsdelivr.net/gh/codebaseai/imeetlyJs/imeetly.js')) {
+    if (script.src.includes('https://cdn.jsdelivr.net/gh/codebaseai/imeetlyJs/imeetly.min.js')) {
       return script.getAttribute('key');
     }
   }
